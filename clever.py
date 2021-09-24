@@ -1,19 +1,14 @@
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
-from multiprocessing import Process, Lock
-from multiprocessing import Pool
 from colorama import Fore, Back
 from selenium import webdriver
 from colorama import init
 import time
-import multiprocessing
 import os
 import win32ctypes.core
 import sys
-import logging
 from fake_useragent import UserAgent
-from threading import Timer
 
 
 while True:
